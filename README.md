@@ -17,7 +17,7 @@ the same kind of images can be greatly reduced by applying soft compression.
 ### Framework and Role
 
 <div align="center">
-  <img src='Figures/Encoder.pdf' width="50%"/>
+  <img src='Figures/Encoder.png' width="50%"/>
 </div>
 
 ## Prerequisites for Code
