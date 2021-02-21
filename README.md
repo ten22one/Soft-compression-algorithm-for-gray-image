@@ -18,12 +18,12 @@ the same kind of images can be greatly reduced by applying soft compression.
 - This code is designed for gray image compression, which is in lossless mode. 
 - The code can train and test the cross and single results on the datasets Fashion_MNIST and CIFAR-10.
 - For other datasets, just do a few changes can achive the compression effect.
-## Encoder
+# Encoder
 <div align="center">
   <img src='Figures/Encoder.png' width="90%"/>
 </div>
 
-## Overall Procedure
+# Overall Procedure
 <div align="center">
   <img src='Figures/Flowchart.png' width="100%"/>
 </div>
