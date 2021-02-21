@@ -51,7 +51,7 @@ CIFAR-10: http://www.cs.toronto.edu/~kriz/cifar.html
 
 
 ## Main Modules
-- To train a model yourself, you have to first prepare the data as shown in [[Prerequisites for Code]](#Prerequisites)
+- To train a model yourself, you have to first prepare the data as shown in [[Prerequisites for Code]](#prerequisites-for-code)
 - Then, put them into foler 'Dataset\\Fashion_MNIST' and 'Dataset\\CIFAR10'
 - After preparation, you can run 'MainProgram.py' to get the cross results by using soft compression algorithm for gray image
 - Run 'MainProgram2.py' to get the single results by using soft compression algorithm for gray image
