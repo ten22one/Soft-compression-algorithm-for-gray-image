@@ -20,6 +20,11 @@ the same kind of images can be greatly reduced by applying soft compression.
   <img src='Figures/Encoder.png' width="100%"/>
 </div>
 
+
+<div align="center">
+  <img src='Figures/Flowchart.png' width="100%"/>
+</div>
+
 ## Prerequisites for Code
 
 Required packages:
