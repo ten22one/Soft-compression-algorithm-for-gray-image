@@ -70,9 +70,9 @@ for f in os.listdir(input_dir):
     after_jpeg2000_img = cv2.imread(after_jpeg2000_name, cv2.IMREAD_GRAYSCALE)
     is_same_jpeg2000 = (img == after_jpeg2000_img).all()
 
-    print('The number is:%d,the average compression ratio of JPEG-LS  is %0.3f,minimum is %0.3f,'
-          'maximum is %0.3f, '
-          'variance is %0.4f; PNG: mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f; JPEG2000: '
+    print('Number:%d, the average compression ratio of JPEG-LS is %0.3f, minimum is %0.3f,'
+          ' maximum is %0.3f,'
+          ' variance is %0.4f; PNG: mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f; JPEG2000: '
           'mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f'
           % (num, np.mean(jpeg_ls_ratio), min(jpeg_ls_ratio), max(jpeg_ls_ratio),
              np.var(jpeg_ls_ratio), np.mean(png_ratio), min(png_ratio), max(png_ratio), np.var(png_ratio),
