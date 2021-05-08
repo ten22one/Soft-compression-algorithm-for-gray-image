@@ -14,7 +14,7 @@ import numpy as np
 import datetime
 
 if __name__ == '__main__':
-    # os.system('python PreProcess_s.py')
+    os.system('python PreProcess_s.py')
     # Parameters
     input_dir = ['train', 'test']
     output_dir = ['test_encode', 'test_decode']
