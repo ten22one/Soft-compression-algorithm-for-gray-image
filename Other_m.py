@@ -75,9 +75,9 @@ for f in os.listdir(input_dir):
     pa_ratio = predict_arithmetic.main(img_name)
     pa_total_ratio.append(pa_ratio)
 
-    print('The number is:%d,the average compression ratio of JPEG-LS  is %0.3f,minimum is %0.3f,'
-          'maximum is %0.3f, '
-          'variance is %0.4f; PNG: mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f; JPEG2000: '
+    print('Number:%d, the average compression ratio of JPEG-LS is %0.3f, minimum is %0.3f,'
+          ' maximum is %0.3f,'
+          ' variance is %0.4f; PNG: mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f; JPEG2000: '
           'mean is %0.3f, minimum is %0.3f, maximum is %0.3f, variance is %0.4f; Predict_Arithmetic: mean is %0.3f, '
           'minimum is %0.3f, maximum is %0.3f,variance is %0.4f '
           % (num, np.mean(jpeg_ls_ratio), min(jpeg_ls_ratio), max(jpeg_ls_ratio),
