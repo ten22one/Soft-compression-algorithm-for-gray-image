@@ -54,11 +54,17 @@ Massachusetts Buildings: https://www.kaggle.com/balraj98/massachusetts-buildings
 
 
 ## Main Modules
+
 - To train a model yourself, you have to firstly prepare the data as shown in [[Prerequisites for Code]](#prerequisites-for-code)
 - Then, put them into folder 'Dataset'
 - Run 'MainProgram.py' to get the results with soft compression algorithm
 - Run 'demo.py' to get the results on DRIVE dataset with soft compression algorithm
 
+### Gray Image model
+- Put the dataset into folder 'Gray Image\\\\Dataset'
+- Run 'Gray Image\\\\PreProcess.py' to preprocess the images
+- Run 'Gray Image\\\\MainProgram.py' to get the results in Table 4
+- Run 'Gray Image\\\\MainProgram2.py' to get the results in Table 2
 
 
 ## Other Information
